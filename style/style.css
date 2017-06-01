@@ -1,0 +1,538 @@
+@import url('https://fonts.googleapis.com/css?family=Alegreya:700');
+@import url(http://allfont.ru/allfont.css?fonts=alegreya-bold);
+@import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+SC');
+#morning {
+  display: flex;
+  background: url("../images/placeholder1.png") no-repeat center center;
+  background-size: cover;
+  height: 760px;
+}
+#morning .content {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#morning .content .info {
+  width: 50%;
+  margin: 0;
+  font-family: Alegreya;
+  text-align: center;
+}
+#morning .content .info h1,
+#morning .content .info h2,
+#morning .content .info h3 {
+  color: #fff;
+  margin: 0;
+}
+#morning .content .info h1 {
+  font-size: 60px;
+  letter-spacing: 5px;
+}
+#morning .content .info h2 {
+  margin-top: 40px;
+}
+#morning .content .info .coment1 {
+  margin: 0;
+  color: #c8a593;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+#morning .content .info .coment2 {
+  font-family: "Times New Roman";
+  color: #c2beba;
+  margin: 0;
+}
+#morning .content .info .price {
+  font-family: Alegreya;
+  color: #dfc691;
+  font-size: 20pt;
+}
+#morning .content .text {
+  display: flex;
+  flex-direction: column;
+  background: url("../images/Vektor-Smartobjekt1.png") no-repeat right center;
+  width: 505px;
+  height: 606px;
+  align-items: center;
+  margin: 0;
+}
+#morning .content .text .text_top {
+  display: flex;
+  width: 50%;
+  height: 50px;
+  margin-top: 30px;
+  margin-left: -60px;
+  justify-content: space-between;
+  font-family: Alegreya;
+  font-weight: 700;
+}
+#morning .content .text_center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  margin-left: -60px;
+  margin-top: 50px;
+}
+#morning .content .text_center h1 {
+  font-size: 36pt;
+  text-align: center;
+}
+#morning .content .text_center p {
+  text-align: center;
+  line-height: 2.0em;
+}
+#morning .content .text_center button {
+  padding: 15px 65px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 1px;
+  font-family: Alegreya;
+  color: #a47d5e;
+  font-size: 18pt;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+#morning .content .text_center button:hover {
+  transform: scale(1.1);
+}
+#sandwich {
+  display: flex;
+  background: url("../images/bg2.png") no-repeat top center;
+  background-size: cover;
+  height: 920px;
+}
+#sandwich .container {
+  width: 80%;
+  margin: 0 auto;
+}
+#sandwich .container .caption {
+  font-family: 'Alegreya Bold', arial;
+  text-align: center;
+  margin-top: 100px;
+}
+#sandwich .container h1 {
+  font-size: 36pt;
+  margin: 0;
+}
+#sandwich .container .caption_text {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 11pt;
+  color: #a47d5e;
+}
+#sandwich .content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sandwich .content .content_left {
+  width: 25%;
+}
+#sandwich .content .content_left .post {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sandwich .content .content_left .post .images {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+#sandwich .content .content_left .post .images img {
+  position: relative;
+}
+#sandwich .content .content_left .post h3 {
+  font-family: 'Alegreya Bold', bold;
+  font-size: 28pt;
+  color: #a47d5e;
+  margin: 0;
+}
+#sandwich .content .content_left .post p {
+  font-family: "Times New Roman", Regular;
+  color: black;
+  font-size: 12pt;
+  text-align: center;
+  margin-bottom: 60px;
+}
+#sandwich .content .content_right {
+  outline: 12px solid white;
+  outline-offset: -12px;
+  position: relative;
+}
+#sandwich .content .content_right .foto {
+  background: url("../images/sandwich.png") no-repeat;
+  width: 840px;
+  height: 550px;
+}
+#sandwich .content .content_right .full_recipe {
+  display: flex;
+  width: 160px;
+  height: 50px;
+  position: absolute;
+  border: 1px  dashed #a47d5e;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  top: 520px;
+  left: -40px;
+}
+#sandwich .content .content_right .full_recipe P {
+  color: #a47d5e;
+  font-size: 15pt;
+  margin: 0;
+  font-family: 'Alegreya Bold', bold;
+}
+#sandwich .content .content_right .time {
+  background: url("../images/Vektor-Smartobjekt.png") no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  right: 1px;
+  top: -20px;
+  box-shadow: -4px 12px 70px -6px rgba(0, 0, 0, 0.75);
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+#sandwich .content .content_right .time h3 {
+  margin-bottom: 0;
+  color: #a47d5e;
+}
+#sandwich .content .content_right .time span {
+  font-size: 92px;
+  margin: 0;
+  color: #dfc691;
+  vertical-align: middle;
+  position: relative;
+  top: -20px;
+}
+#sandwich .content .content_right .time p {
+  margin: 0;
+  color: #979285;
+  position: relative;
+  top: -30px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+header .header_img {
+  display: flex;
+  background: url("../images/navi_bg.png") no-repeat top center;
+  background-size: cover;
+  height: 120vh;
+  margin: auto;
+}
+header .header_img .header_nav_img {
+  display: flex;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.35);
+  height: 83px;
+  position: fixed;
+  z-index: 100;
+}
+header .header_img #header_top {
+  display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+header .header_img #header_top .menu {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+}
+header .header_img #header_top .menu ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header .header_img #header_top .menu ul li:last-child::after {
+  content: '';
+  margin: 0;
+}
+header .header_img #header_top .menu ul li {
+  display: flex;
+  align-items: center;
+  height: 70px;
+  margin-left: 30px;
+}
+header .header_img #header_top .menu ul li::after {
+  content: '~';
+  color: white;
+  margin-left: 30px;
+}
+header .header_img #header_top .menu ul li a {
+  font-family: Alegreya;
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  letter-spacing: 5px;
+}
+header .header_img #header_top .icon {
+  display: flex;
+  width: 7%;
+  justify-content: space-between;
+}
+#art_of_cakes {
+  display: flex;
+  height: 675px;
+  margin: 70px auto 0 auto;
+  background: url("../images/img-texture.png") no-repeat center center;
+  background-size: cover;
+}
+#art_of_cakes .text {
+  font-family: 'Fjalla One', sans-serif;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+#art_of_cakes .text h3 {
+  font-family: 'Alegreya', serif;
+  font-size: 18pt;
+}
+#art_of_cakes .text .chef_cook {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#art_of_cakes .text .chef_cook p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 40px;
+  width: 110px;
+  border-bottom: 1px solid #d7d5ca;
+  border-top: 1px solid #d7d5ca;
+  font-family: 'Alegreya', serif;
+  font-size: 24px;
+}
+#art_of_cakes .text .chef_cook .img_avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 25px;
+}
+#art_of_cakes .text .chef_cook .img_avatar img {
+  position: relative;
+  left: -38px;
+  top: -2px;
+}
+#art_of_cakes .text .art_header {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  font-family: 'Scriptina', serif;
+  font-size: 24px;
+  line-height: 130%;
+  margin: 0;
+}
+#art_of_cakes .text .art_header::before {
+  content: url("../images/“.png");
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  top: -20px;
+  right: 50px;
+}
+#art_of_cakes .text .art_header::after {
+  content: url("../images/”.png");
+  display: flex;
+  align-items: flex-end;
+  top: 20px;
+  left: 50px;
+  position: relative;
+}
+#art_of_cakes .text .art_header p {
+  margin: 0;
+}
+#art_of_cakes .images_right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+#art_of_cakes .images_right::after {
+  content: '';
+  background: url("../images/TASTES-SO--GOOD.png") no-repeat center;
+  position: absolute;
+  left: 180px;
+  top: 143px;
+  height: 282px;
+  width: 282px;
+  opacity: 0.9;
+}
+#art_of_cakes .images_right .images_horizontal {
+  display: flex;
+}
+#art_of_cakes .images_right .images_horizontal .images_art {
+  display: flex;
+  flex-shrink: 0;
+  width: 300px;
+  height: 250px;
+  overflow: hidden;
+  margin: 10px;
+  outline: 5px solid white;
+  outline-offset: -10px;
+}
+#pancakes {
+  display: flex;
+  align-items: center;
+  background: url("../images/placeholder.png") no-repeat center center;
+  background-size: cover;
+  height: 760px;
+  margin: auto;
+}
+#pancakes .content {
+  background: url("../images/rating-side.png") no-repeat center;
+  background-size: cover;
+  width: 1293px;
+  height: 510px;
+  position: relative;
+}
+#pancakes .content .time {
+  background: url("../images/Vektor-Smartobjekt.png") no-repeat;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 1180px;
+  top: -50px;
+  box-shadow: -4px 12px 70px -6px rgba(0, 0, 0, 0.75);
+  font-family: 'Alegreya', serif;
+  text-align: center;
+}
+#pancakes .content .time h3 {
+  margin-bottom: 0;
+  color: #a47d5e;
+}
+#pancakes .content .time span {
+  font-size: 92px;
+  margin: 0;
+  color: #dfc691;
+  vertical-align: middle;
+  position: relative;
+  top: -20px;
+}
+#pancakes .content .time p {
+  margin: 0;
+  color: #979285;
+  position: relative;
+  top: -30px;
+}
+#pancakes .content .text {
+  position: absolute;
+  left: 62%;
+  margin-top: 30px;
+}
+#pancakes .content .text h1 {
+  font-size: 48px;
+  font-family: 'Alegreya SC', serif;
+  margin-bottom: 0;
+}
+#pancakes .content .text span {
+  text-transform: uppercase;
+  color: #a47d5e;
+}
+#pancakes .content .text p {
+  font-family: "Myriad Pro";
+  width: 85%;
+  margin: 60px 0;
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.5em;
+}
+#pancakes .content .text .galeria {
+  display: flex;
+}
+#pancakes .content .text .galeria::before {
+  content: url("../images/interface---arrow-left.png");
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#pancakes .content .text .galeria::after {
+  content: url("../images/interface---arrow-right.png");
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+#pancakes .content .text .galeria .images {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin: 15px;
+  overflow: hidden;
+}
+#pancakes .content .text .galeria .images .img1 {
+  position: relative;
+  bottom: 40px;
+  right: 60px;
+}
+#pancakes .content .text .galeria .images .img2 {
+  position: relative;
+  top: -200px;
+  right: 250px;
+}
+#pancakes .content .text .galeria .images .img3 {
+  position: relative;
+  bottom: 130px;
+  right: 390px;
+}
+#menu {
+  background: url("../images/bg1.png");
+  height: 240px;
+}
+#menu .footer_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+}
+#menu .footer_content .menu_lr {
+  width: 40%;
+  height: 70px;
+  border-top: 1px solid #d7d5ca;
+  border-bottom: 1px solid #d7d5ca;
+}
+#menu .footer_content .menu_lr ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 25px auto;
+  justify-content: center;
+}
+#menu .footer_content .menu_lr ul li:last-child::after {
+  content: '';
+  margin: 0;
+}
+#menu .footer_content .menu_lr ul li::after {
+  content: '~';
+  color: black;
+  margin: 0 35px;
+}
+#menu .footer_content .menu_lr ul li a {
+  text-decoration: none;
+  color: #000;
+}
+#menu .footer_content .menu_lr ul li a:hover {
+  color: #808080;
+}
+#menu .footer_content img {
+  margin: 0 50px;
+}
