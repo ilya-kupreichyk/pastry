@@ -13,10 +13,49 @@ body {
 header {
   .header_img {
     display: flex;
-    background: url("../images/navi_bg.png") no-repeat top center;
+    background: url("../images/header.png") no-repeat top center;
     background-size: cover;
     height: 120vh;
     margin: auto;
+
+    .header_content {
+      display: flex;
+      margin: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 250px;
+
+      h1 {
+        color: white;
+        font-size: 92pt;
+        font-family: 'Playfair Display', serif;
+      }
+      P {
+        color: white;
+        font-size: 24pt;
+        opacity: 0.8;
+        text-align: center;
+
+      }
+      button {
+        padding: 15px 65px;
+        background-color: rgba(128,128,128, 0.4);
+        outline: none;
+        border: 1px dashed #9e9c93;
+        color: white;
+        font-size: 14pt;
+        transition: all .2s ease-in-out;
+        font-family: Alegreya;
+        letter-spacing: 5px;
+        font-weight: 600;
+
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
 
     .header_nav_img {
       display: flex;

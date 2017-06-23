@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya:700');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 @import url(http://allfont.ru/allfont.css?fonts=alegreya-bold);
 @import url('https://fonts.googleapis.com/css?family=Alegreya|Alegreya+SC');
 #morning {
@@ -224,10 +225,44 @@ body {
 }
 header .header_img {
   display: flex;
-  background: url("../images/navi_bg.png") no-repeat top center;
+  background: url("../images/header.png") no-repeat top center;
   background-size: cover;
   height: 120vh;
   margin: auto;
+}
+header .header_img .header_content {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 250px;
+}
+header .header_img .header_content h1 {
+  color: white;
+  font-size: 92pt;
+  font-family: 'Playfair Display', serif;
+}
+header .header_img .header_content P {
+  color: white;
+  font-size: 24pt;
+  opacity: 0.8;
+  text-align: center;
+}
+header .header_img .header_content button {
+  padding: 15px 65px;
+  background-color: rgba(128, 128, 128, 0.4);
+  outline: none;
+  border: 1px dashed #9e9c93;
+  color: white;
+  font-size: 14pt;
+  transition: all 0.2s ease-in-out;
+  font-family: Alegreya;
+  letter-spacing: 5px;
+  font-weight: 600;
+}
+header .header_img .header_content button:hover {
+  transform: scale(1.1);
 }
 header .header_img .header_nav_img {
   display: flex;
